@@ -1,288 +1,138 @@
 {
-  "users": [
-  {
-    "id": "eileenHorton-1153",
-    "name": "Eileen Horton",
-    "email": "eileen_h@hotmail.com",
-    "img": "/img/avatars/thumb-1.jpg",
-    "role": "Admin",
-    "lastOnline": 1573430400,
-    "status": "active",
-    "personalInfo": {
-      "location": "New York, US",
-      "title": "Product Manager",
-      "birthday": "10/10/1992",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
+  "blocks": [
+    {
+      "id": 1,
+      "icon": "arrow_clock_icon",
+      "title": "Прочитай задание внимательно",
+      "body": "Думаю у тебя не займет это больше двух-трех минут"
+    },
+    {
+      "id": 2,
+      "icon": "truck_layout_icon",
+      "title": "Изучи весь макет заранее",
+      "body": "Подумай как это будет работать на разных разрешениях и при скролле"
+    },
+    {
+      "id": 3,
+      "icon": "graph_check_icon",
+      "title": "Сделай хорошо",
+      "body": "Чтобы мы могли тебе доверить подобные задачи в будущем"
+    },
+    {
+      "id": 4,
+      "icon": "money_bag_icon",
+      "title": "Получи предложение",
+      "body": "Ну тут все просто, не я придумал правила, но думаю так и будет)))"
     }
-  },
-  {
-    "id": "terranceMoreno-1322",
-    "name": "Terrance Moreno",
-    "email": "",
-    "img": "/img/avatars/thumb-2.jpg",
-    "role": "User",
-    "lastOnline": 1572393600,
-    "status": "active",
-    "personalInfo": {
-      "location": "New York, US",
-      "title": "Software Engineer",
-      "birthday": "03/02/1984",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Константинов Михаил Павлович",
+      "city": "Санкт-Петербург",
+      "avatar": null,
+      "body": "Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы..."
+    },
+    {
+      "id": 2,
+      "name": "Иван Иванов",
+      "city": "Санкт-Петербург",
+      "avatar": "path_to_avatar.jpg",
+      "body": "Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира призваны к ответу."
+    },
+    {
+      "id": 3,
+      "name": "Артем Корнилов",
+      "city": "Самара",
+      "avatar": "path_to_avatar.jpg",
+      "body": "Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения."
+    },
+    {
+      "id": 4,
+      "name": "Екатерина Смирнова",
+      "city": "Москва",
+      "avatar": "path_to_avatar.jpg",
+      "body": "Наша компания столкнулась с проблемой, которая требовала незамедлительного решения. Перспективное планирование помогло нам справиться с этим вызовом."
+    },
+    {
+      "id": 5,
+      "name": "Алексей Воронов",
+      "city": "Казань",
+      "avatar": null,
+      "body": "Благодаря тщательному анализу существующих паттернов поведения, мы смогли улучшить производственные процессы. Это действительно работает!"
+    },
+    {
+      "id": 6,
+      "name": "Мария Петрова",
+      "city": "Новосибирск",
+      "avatar": "path_to_avatar.jpg",
+      "body": "Наши исследования показывают, что использование новых методов планирования открывает большие перспективы для компании. Очень полезный подход!"
+    },
+    {
+      "id": 7,
+      "name": "Дмитрий Соколов",
+      "city": "Екатеринбург",
+      "avatar": "path_to_avatar.jpg",
+      "body": "В стремлении к улучшению пользовательского опыта наша компания сделала большой шаг вперёд. Перспективное планирование стало основой нашего успеха."
     }
-  },
-  {
-    "id": "ronVargas7653",
-    "name": "Ron Vargas",
-    "email": "ronnie_vergas@infotech.io",
-    "img": "/img/avatars/thumb-3.jpg",
-    "role": "User",
-    "lastOnline": 1572393600,
-    "status": "blocked",
-    "personalInfo": {
-      "location": "New York, US",
-      "title": "UI/UX Designer",
-      "birthday": "07/11/1987",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "Подтверждено: сознание наших соотечественников не замутнено пропагандой?",
+      "answer": "На первый взгляд, наши соотечественники демонстрируют критическое мышление. Однако влияние внешних факторов нельзя полностью исключить."
+    },
+    {
+      "id": 2,
+      "question": "Прототип нового сервиса - это как трубный призыв?",
+      "answer": "Да, прототип нового сервиса привлекает внимание к важным вопросам. Это начальный этап, который может стать катализатором для масштабных изменений."
+    },
+    {
+      "id": 3,
+      "question": "Частокол на границе продолжает удивлять?",
+      "answer": "В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий."
+    },
+    {
+      "id": 4,
+      "question": "Очевидцы сообщают, что слышали грохот грома грядущих изменений?",
+      "answer": "Многие очевидцы подтверждают необычные явления, происходящие в последнее время. Эти изменения могут привести к серьёзным последствиям в будущем."
+    },
+    {
+      "id": 5,
+      "question": "И по сей день в центральных регионах звучит перекатами печальный плач оппозиции?",
+      "answer": "Оппозиция в центральных регионах продолжает выражать недовольство существующей ситуацией. Несмотря на это, её влияние остаётся ограниченным."
+    },
+    {
+      "id": 6,
+      "question": "Нынче никто не может себе позволить инициировать треск разлетающихся скреп?",
+      "answer": "Сложившаяся обстановка не позволяет инициировать резкие перемены. Это связано с нестабильностью политической и экономической ситуации."
+    },
+    {
+      "id": 7,
+      "question": "Высококачественный прототип будущего проекта обнадёживает?",
+      "answer": "Прототип будущего проекта действительно вселяет надежду. Он демонстрирует высокий потенциал для дальнейшего развития и успеха."
     }
-  },
-  {
-    "id": "lukeCook4721",
-    "name": "Luke Cook",
-    "email": "cookie_lukie@hotmail.com",
-    "img": "/img/avatars/thumb-4.jpg",
-    "role": "Admin",
-    "lastOnline": 1579132800,
-    "status": "active",
-    "personalInfo": {
-      "location": "New York, US",
-      "title": "HR Executive",
-      "birthday": "07/11/1987",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
+  ],
+  "survey": [
+    {
+      "id": 1,
+      "title": "Опрошенных пользовались микрокредитами",
+      "body": "Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах."
+    },
+    {
+      "id": 2,
+      "title": "Опрошенных пользовались микрокредитами",
+      "body": "Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах."
+    },
+    {
+      "id": 3,
+      "title": "Опрошенных пользовались микрокредитами",
+      "body": "Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах."
+    },
+    {
+      "id": 4,
+      "title": "Опрошенных пользовались микрокредитами",
+      "body": "Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах."
     }
-  },
-  {
-    "id": "joyceFreeman1384",
-    "name": "Joyce Freeman",
-    "email": "joyce991@infotech.io",
-    "img": "/img/avatars/thumb-5.jpg",
-    "role": "User",
-    "lastOnline": 1582416000,
-    "status": "active",
-    "personalInfo": {
-      "location": "New York, US",
-      "title": "Frontend Developer",
-      "birthday": "17/11/1993",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "samanthaPhillips8493",
-    "name": "Samantha Phillips",
-    "email": "samanthaphil@infotech.io",
-    "img": "/img/avatars/thumb-6.jpg",
-    "role": "User",
-    "lastOnline": 1583107200,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Compliance Manager",
-      "birthday": "17/11/1993",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "taraFletcher1263",
-    "name": "Tara Fletcher",
-    "email": "taratarara@imaze.edu.du",
-    "img": "/img/avatars/thumb-7.jpg",
-    "role": "User",
-    "lastOnline": 1582761600,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Compliance Manager",
-      "birthday": "17/11/1993",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "frederickAdams6532",
-    "name": "Frederick Adams",
-    "email": "iamfred@imaze.infotech.io",
-    "img": "/img/avatars/thumb-8.jpg",
-    "role": "User",
-    "lastOnline": 1579219200,
-    "status": "blocked",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Compliance Manager",
-      "birthday": "17/11/1993",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "carolynHanson7953",
-    "name": "Carolyn Hanson",
-    "email": "carolyn_h@gmail.com",
-    "img": "/img/avatars/thumb-9.jpg",
-    "role": "User",
-    "lastOnline": 1584489600,
-    "status": "blocked",
-    "personalInfo": {
-      "location": "Texas, US",
-      "title": "Compliance Manager",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "brittanyHale3683",
-    "name": "Brittany Hale",
-    "email": "brittany1134@gmail.com",
-    "img": "/img/avatars/thumb-10.jpg",
-    "role": "User",
-    "lastOnline": 1583452800,
-    "status": "active",
-    "personalInfo": {
-      "location": "Texas, US",
-      "title": "Compliance Manager",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "lloydObrien1564",
-    "name": "Lloyd Obrien",
-    "email": "handsome-obrien@hotmail.com",
-    "img": "/img/avatars/thumb-11.jpg",
-    "role": "User",
-    "lastOnline": 1584576000,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Software Engineer",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "gabriellaMay2850",
-    "name": "Gabriella May",
-    "email": "maymaymay12@infotech.io",
-    "img": "/img/avatars/thumb-12.jpg",
-    "role": "User",
-    "lastOnline": 1574208000,
-    "status": "blocked",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Software Engineer",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "leeWheeler1941",
-    "name": "Lee Wheeler",
-    "email": "",
-    "img": "/img/avatars/thumb-13.jpg",
-    "role": "User",
-    "lastOnline": 1586649600,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Software Engineer",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "gailBarnes7615",
-    "name": "Gail Barnes",
-    "email": "gailby0116@infotech.io",
-    "img": "/img/avatars/thumb-14.jpg",
-    "role": "User",
-    "lastOnline": 1583020800,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Software Engineer",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  },
-  {
-    "id": "ellaRobinson1093",
-    "name": "Ella Robinson",
-    "email": "ella_robinson@infotech.io",
-    "img": "/img/avatars/thumb-15.jpg",
-    "role": "User",
-    "lastOnline": 1586217600,
-    "status": "active",
-    "personalInfo": {
-      "location": "London, UK",
-      "title": "Software Engineer",
-      "birthday": "03/06/1991",
-      "phoneNumber": "+12-123-1234",
-      "facebook": "facebook.com/sample",
-      "twitter": "twitter.com/sample",
-      "instagram": "instagram.com/sample",
-      "site": "samplesite.com"
-    }
-  }]
+  ]
 }
